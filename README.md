@@ -1,10 +1,12 @@
 # POS - EVENT DRIVEN WITH POSIX THREADS
-Event-driven development with pthread (POSIX Threads).
+Event-driven development with pthreads (POSIX Threads).
+
+![image](https://github.com/user-attachments/assets/a4d56e39-11e8-4a14-b8c8-d09ba21d5935)
 
 ### 1 - Benefits of Event-Driven Development
-Utilizing pthread (POSIX Threads) as the foundation for embedded applications offers the advantage of creating dedicated threads for various project functions. These threads can efficiently manage interactions with peripherals, sensors, and other devices, while leveraging the Linux kernel for robust multitasking and concurrency.
+Utilizing pthreads (POSIX Threads) as the foundation for embedded applications offers the advantage of creating dedicated threads for various project functions. These threads can efficiently manage interactions with peripherals, sensors, and other devices, while leveraging the Linux kernel for robust multitasking and concurrency.
 
-Adopting an event-driven model using pthread (POSIX Threads) in embedded applications offers several key advantages.
+Adopting an event-driven model using pthreads (POSIX Threads) in embedded applications offers several key advantages.
 * Optimized Resource Management
 * Enhanced Flexibility
 * Simplified Scalability
