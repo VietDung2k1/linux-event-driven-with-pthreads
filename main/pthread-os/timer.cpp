@@ -52,7 +52,7 @@ void timer_handler(sigval_t) {
 				/* remove timer */
 				if (it->msg_data != NULL)
 					free(it->msg_data);
-				vector_timer.erase(it);
+				it = vector_timer.erase(it);
 			}
 		}
 		else {
